@@ -18,7 +18,13 @@ npm install
 3. Run the script:
 
 ```
-node admitcardDownload.js
+node admitcardDownload.js 
+```
+
+or you can use 
+
+```
+nodemon admitcardDownload.js 
 ```
 
 ## Files of interest
