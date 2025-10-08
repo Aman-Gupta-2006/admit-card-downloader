@@ -4,7 +4,7 @@ dotenv.config();
 
 (async () => {
     const browser = await puppeteer.launch({ 
-        headless: false, 
+        headless: "new", 
         slowMo: 50,
         executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
         args: ['--ignore-certificate-errors'],
