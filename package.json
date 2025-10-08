@@ -1,0 +1,26 @@
+{
+  "name": "admit-card-downloader",
+  "version": "1.0.0",
+  "description": "Automates download of admit card PDF from DTU registration site using Puppeteer.",
+  "main": "admitDownload.js",
+  "scripts": {
+    "start": "node admitDownload.js",
+    "dev": "nodemon admitDownload.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "puppeteer": "^24.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
