@@ -30,11 +30,7 @@ nodemon admitcardDownload.js
 ## Files of interest
 
 - `admitDownload.js` — main script.
-- `.env` — (not committed) contains secrets: ROLL_NUMBER, PASSWORD, ADMIT_DOWNLOAD_PATH.
-
-## Security notes
-
-Do not commit `.env` or any credentials. Use GitHub Secrets for CI and consider rotating credentials periodically.
+- `.env` — (not committed) contains secrets: ROLL_NUMBER, PASSWORD, ADMIT_DOWNLOAD_PATH, SUBJECT_FACULTY_MAP.
 
 ## License
 
